@@ -118,7 +118,7 @@ class UnityDataset(Dataset):
         if self.cat:
             images = torch.cat(images, dim=0)
 
-        return images
+        return images[0]
     
     def _process_image(self, received_data):
         # Convert data to a tensor

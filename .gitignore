@@ -1,1 +1,6 @@
 *.meta
+
+__pycache__/
+lightning_logs/
+cubes/
+wandb/
